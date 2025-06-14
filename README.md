@@ -40,6 +40,9 @@ the frontend extension, check the frontend extension is installed:
 ```bash
 jupyter labextension list
 ```
+## How to use it 
+
+First, open and execute all the cells from the notebook "example.ipnyb". You will see outputs filled by FlashCards. Now, Interact with those outputs. You will find out that a file named "log" has been created. Our telemetry data will be stored in this file. The delemetry date will be available in the console too.
 
 ## How to implement a custom event extension
 

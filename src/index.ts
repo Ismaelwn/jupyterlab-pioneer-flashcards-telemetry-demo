@@ -75,7 +75,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
 
         await pioneer.publishEvent(notebookPanel, nextClickEvent, myExporter_file, false);
         await pioneer.publishEvent(notebookPanel, nextClickEvent, myExporter_console, false);
-        window.alert("1");
+        //window.alert("1");
       });
 
 
@@ -116,7 +116,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
 
           await pioneer.publishEvent(notebookPanel, flipEvent, myExporter_file, false);
           await pioneer.publishEvent(notebookPanel, flipEvent, myExporter_console, false);
-          window.alert("2");
+          //window.alert("2");
         }, 10);
       });
     });
