@@ -3,4 +3,4 @@ node_modules
 **/lib
 **/package.json
 !/package.json
-jupyterlab_pionneer_flashcards_telemetry_demo
+jupyterlab_pioneer_flashcards_telemetry_demo

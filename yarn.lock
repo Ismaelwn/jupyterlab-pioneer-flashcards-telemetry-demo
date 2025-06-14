@@ -4187,23 +4187,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jupyterlab-pioneer@npm:^1.6.0":
-  version: 1.7.1
-  resolution: "jupyterlab-pioneer@npm:1.7.1"
-  dependencies:
-    "@jupyterlab/application": ^4.0.0
-    "@jupyterlab/apputils": ^4.1.9
-    "@jupyterlab/coreutils": ^6.0.0
-    "@jupyterlab/mainmenu": ^4.0.9
-    "@jupyterlab/notebook": ^4.0.5
-    "@jupyterlab/services": ^7.0.0
-  checksum: c59b227aea8cad3bf5f35977a8bd7c7b15beaeb1ae2045be214cd21d8c35d8bcfece0dde8e990c1fea3ce6174f954e699f7cecadbb8fdf30babf4d305784a0a7
-  languageName: node
-  linkType: hard
-
-"jupyterlab-pionneer-flashcards-telemetry-demo@workspace:.":
+"jupyterlab-pioneer-flashcards-telemetry-demo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "jupyterlab-pionneer-flashcards-telemetry-demo@workspace:."
+  resolution: "jupyterlab-pioneer-flashcards-telemetry-demo@workspace:."
   dependencies:
     "@jupyterlab/application": ^4.0.0
     "@jupyterlab/builder": ^4.0.0
@@ -4235,6 +4221,20 @@ __metadata:
     yjs: ^13.5.0
   languageName: unknown
   linkType: soft
+
+"jupyterlab-pioneer@npm:^1.6.0":
+  version: 1.7.1
+  resolution: "jupyterlab-pioneer@npm:1.7.1"
+  dependencies:
+    "@jupyterlab/application": ^4.0.0
+    "@jupyterlab/apputils": ^4.1.9
+    "@jupyterlab/coreutils": ^6.0.0
+    "@jupyterlab/mainmenu": ^4.0.9
+    "@jupyterlab/notebook": ^4.0.5
+    "@jupyterlab/services": ^7.0.0
+  checksum: c59b227aea8cad3bf5f35977a8bd7c7b15beaeb1ae2045be214cd21d8c35d8bcfece0dde8e990c1fea3ce6174f954e699f7cecadbb8fdf30babf4d305784a0a7
+  languageName: node
+  linkType: hard
 
 "keyv@npm:^4.5.3":
   version: 4.5.4

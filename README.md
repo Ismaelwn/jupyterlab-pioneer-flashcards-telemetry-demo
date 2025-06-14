@@ -2,7 +2,8 @@
 
 A JupyterLab extension that generates telemetry data on console and in a file, when a user interacts with an output of flashcard(s).
 
-This extension is an example of how to write a simple extension that leverages functionalities provided by [`me`](https://github.com/Ismaelwn/jupyterlab_pionneer_flashcards_telemetry_demo) to generate telemetry data for those specific events (capturing interactions between users and an output of flashcards).
+This extension is an example of how to write a simple extension that leverages functionalities provided by [`me`](https://github.com/Ismaelwn/jupyterlab_pioneer_flashcards_telemetry_demo) to generate telemetry data for those specific events (capturing interactions between users and an output of flashcards).
+
 
 ## Get started
 
@@ -15,7 +16,7 @@ This extension is an example of how to write a simple extension that leverages f
 To install the extension, execute:
 
 ```bash
-pip install git+"https://github.com/Ismaelwn/jupyterlab_pionneer_flashcards_telemetry_demo"
+pip install git+"https://github.com/Ismaelwn/jupyterlab_pioneer_flashcards_telemetry_demo"
 ```
 
 ### Configuration
