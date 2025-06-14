@@ -112,6 +112,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
             eventName: isFlipped ? "flipped to back" : "flipped to front",
             cellIndex: index
           };
+          
 
           await pioneer.publishEvent(notebookPanel, flipEvent, myExporter_file, false);
           await pioneer.publishEvent(notebookPanel, flipEvent, myExporter_console, false);
