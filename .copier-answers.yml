@@ -10,6 +10,6 @@ labextension_name: jupyterlab-pioneer-custom-event-demo
 project_short_description:
   A JupyterLab extension that generates telemetry data when
   a user clicks a specific button.
-python_name: jupyterlab_pioneer_custom_event_demo
-repository: https://github.com/educational-technology-collective/jupyterlab-pioneer-custom-event-demo
+python_name: jupyterlab_pionneer_flashcards_telemetry_demo
+repository: https://github.com/Ismaelwn/jupyterlab-pionneer-flashcards-telemetry-demo
 test: false

@@ -1,20 +1,20 @@
 {
-    "name": "jupyterlab-pioneer-custom-event-demo",
+    "name": "jupyterlab-pionneer-flashcards-telemetry-demo",
     "version": "0.2.0",
-    "description": "A JupyterLab extension that generates telemetry data when a user clicks a specific button.",
+    "description": "A JupyterLab extension that generates telemetry data when a user interacts with a output of flashcard(s).",
     "keywords": [
         "jupyter",
         "jupyterlab",
         "jupyterlab-extension"
     ],
-    "homepage": "https://github.com/educational-technology-collective/jupyterlab-pioneer-custom-event-demo",
+    "homepage": "https://github.com/Ismaelwn/jupyterlab-pionneer-flashcards-telemetry-demo",
     "bugs": {
-        "url": "https://github.com/educational-technology-collective/jupyterlab-pioneer-custom-event-demo/issues"
+        "url": "https://github.com/Ismaelwn/jupyterlab-pionneer-flashcards-telemetry-demo/issues"
     },
     "license": "BSD-3-Clause",
     "author": {
-        "name": "Educational Technology Collective",
-        "email": "etc-jupyterlab-telemetry@umich.edu"
+        "name": "Ismaelwn",
+        "email": "isma91sn@gmail.com"
     },
     "files": [
         "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
@@ -25,7 +25,7 @@
     "style": "style/index.css",
     "repository": {
         "type": "git",
-        "url": "https://github.com/educational-technology-collective/jupyterlab-pioneer-custom-event-demo.git"
+        "url": "https://github.com/Ismaelwn/jupyterlab-pionneer-flashcards-telemetry-demo.git"
     },
     "scripts": {
         "build": "jlpm build:lib && jlpm build:labextension:dev",
@@ -100,12 +100,12 @@
                     "pip"
                 ],
                 "base": {
-                    "name": "jupyterlab_pioneer_custom_event_demo"
+                    "name": "jupyterlab_pionneer_flashcards_telemetry_demo"
                 }
             }
         },
         "extension": true,
-        "outputDir": "jupyterlab_pioneer_custom_event_demo/labextension",
+        "outputDir": "jupyterlab_pionneer_flashcards_telemetry_demo/labextension",
         "sharedPackages": {
             "jupyterlab-pioneer": {
                 "bundled": false,
