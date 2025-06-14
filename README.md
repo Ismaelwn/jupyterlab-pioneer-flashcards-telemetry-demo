@@ -1,11 +1,8 @@
-# JupyterLab Pioneer Custom Event Demo
+# JUPYTERLAB PIONEER FLASHCARDS TELEMETRY DEMO
 
-[![PyPI](https://img.shields.io/pypi/v/jupyterlab-pioneer-custom-event-demo.svg)](https://pypi.org/project/jupyterlab-pioneer-custom-event-demo)
-[![npm](https://img.shields.io/npm/v/jupyterlab-pioneer-custom-event-demo.svg)](https://www.npmjs.com/package/jupyterlab-pioneer-custom-event-demo)
+A JupyterLab extension that generates telemetry data on console and in a file, when a user interacts with an output of flashcard(s).
 
-A JupyterLab extension that generates telemetry data when a user clicks a specific button.
-
-This extension is an example of how to write a simple extension that leverages functionalities provided by [`jupyterlab-pioneer`](https://github.com/educational-technology-collective/jupyterlab-pioneer) to generate telemetry data for custom events.
+This extension is an example of how to write a simple extension that leverages functionalities provided by [`me`](https://github.com/Ismaelwn/jupyterlab_pionneer_flashcards_telemetry_demo) to generate telemetry data for those specific events (capturing interactions between users and an output of flashcards).
 
 ## Get started
 
@@ -18,7 +15,7 @@ This extension is an example of how to write a simple extension that leverages f
 To install the extension, execute:
 
 ```bash
-pip install jupyterlab-pioneer-custom-event-demo
+pip install git+"https://github.com/Ismaelwn/jupyterlab_pionneer_flashcards_telemetry_demo"
 ```
 
 ### Configuration
@@ -46,3 +43,4 @@ jupyter labextension list
 ## How to implement a custom event extension
 
 https://github.com/educational-technology-collective/jupyterlab-pioneer-custom-event-demo/blob/main/doc/how-to-implement-a-custom-event-extension.md
+#
